@@ -378,7 +378,9 @@
     padding-right: 0;
 }
 .services-list ul li {
-    display: block;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .services-list ul li .icon {
     margin-bottom: 18px;
@@ -586,6 +588,9 @@
 .custom-container {
     max-width: 540px;
 }
+.nav-logo img {
+    width: 15% !important;
+  }
 .banner-content .title {
     font-size: 42px;
 }
