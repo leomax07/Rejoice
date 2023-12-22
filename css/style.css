@@ -1,8 +1,8 @@
 /*
-  Theme Name: Movflx - Online Movies & TV Shows Template.
+  Theme Name: Rejoice Gospel Communications - Online Movies & TV Shows Template.
   Author Name: ThemeBeyond.
   Support: ctoofbb@gmail.com.
-  Description: Movflx - Online Movies & TV Shows Template.
+  Description: Rejoice Gospel Communications - Online Movies & TV Shows Template.
   Version: 1.0
 */
 
@@ -3269,7 +3269,7 @@ label {
 .footer-menu nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .footer-menu nav .navigation {
