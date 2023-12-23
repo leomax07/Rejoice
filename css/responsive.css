@@ -667,4 +667,14 @@
         display: flex;
         justify-content: center;
     }   
+    .image-size{
+        width:509px !important;
+        height: 405px !important;
+    }
+}
+@media only screen and (min-width: 864px) and (max-width: 1600px) {
+    .text-container-001{
+        padding-left: 15rem !important;
+        padding-right: 15rem !important;
+    }
 }

@@ -9,7 +9,11 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="./img/fab.png" />
     <!-- Place favicon.ico in the root directory -->
-
+    <script>
+      if (window.history.replaceState) {
+          window.history.replaceState({}, document.title, window.location.pathname.replace('index.html', ''));
+      }
+  </script>
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
@@ -107,15 +111,15 @@
                           </li>
                         </ul>
                       </li>
-                      <li><a href="./about.html">About Us</a></li>
-                      <li><a href="services.html">Services</a></li>
+                      <li><a href="./about/index.html">About Us</a></li>
+                      <li><a href="./services/index.html">Services</a></li>
                       <!-- <li class="menu-item-has-children"><a href="#">blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Our Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li> -->
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="./contact/index.html">Contact Us</a></li>
                     </ul>
                   </div>
                   <!-- <div class="header-action d-none d-md-block">
@@ -268,7 +272,8 @@
       <!-- banner-area-end -->
 
       <!-- up-coming-movie-area -->
-      <section class="ucm-area ucm-bg" data-background="img/bg/ucm_bg.jpg">
+      <section class="ucm-area ucm-bg" 
+      data-background="img/bg/ucm_bg_shape.png">
         <div
           class="ucm-bg-shape"
           data-background="img/bg/ucm_bg_shape.png"
@@ -468,7 +473,9 @@
       <!-- services-area -->
       <section
         class="services-area services-bg"
-        data-background="img/bg/services_bg.jpg"
+        
+          data-background="img/bg/ucm_bg_shape.png"
+        style="background-color: #1f2229 !important;"
       >
         <div class="container">
           <div class="row align-items-center">
@@ -477,7 +484,7 @@
                 <img
                   src="img/Musiclogosbanner.jpg"
                   alt=""
-                  style="width: 509px; height: 545px"
+                 class="image-size"
                 />
                 <!-- <a
                   href="img/images/services_img.jpg"
@@ -1181,9 +1188,9 @@
                           >Channels</a
                         >
                       </li>
-                      <li><a href="./about.html">About Us</a></li>
-                      <li><a href="./services.html">Services</a></li>
-                      <li><a href="./contact.html">Contact Us</a></li>
+                      <li><a href="./about/index.html">About Us</a></li>
+                      <li><a href="./services/index.html">Services</a></li>
+                      <li><a href="./contact/index.html">Contact Us</a></li>
                     </ul>
                     <!-- <div class="footer-search">
                                         <form action="#">

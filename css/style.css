@@ -1930,9 +1930,14 @@ label {
     justify-content: end;
     align-items: end;
 }
+.image-size{
+    width:509px ;
+    height: 545px;
+}
 
 .gallery-bg {
-    background-image: url(../img/bg/gallery_bg.jpg);
+    /* background-image: url(../img/bg/gallery_bg.jpg); */
+    background-color: #1f2229 !important;
     background-position: top center;
     background-size: cover;
     position: absolute;
